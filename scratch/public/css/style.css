@@ -1,0 +1,67 @@
+.outter_box {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	background-color: #F3F3F3;
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px;
+	border: 1px solid #c0c0c0;
+	box-shadow: 0 0 6px 3px #c0c0c0;
+	
+	
+}
+
+.outter_box:hover {
+	background-image: url(/dark_denim_bg.png);
+}
+
+.outter_box:hover h1 {
+	color: white;
+}
+
+.outter_box:active {
+	top: 2px;
+	box-shadow: 0 0 3px 1px #c0c0c0;
+}
+
+
+.box {
+	display: block;
+	position: relative;
+	background-color: #F3F3F3;
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px;
+	border: 1px solid #c0c0c0;
+	box-shadow: 0 0 6px 3px #c0c0c0;
+	
+	height: 50
+}
+
+.device_box div {
+	display: block;
+	margin-left: auto;
+	margin-right:5px;
+	padding-bottom:5px;
+	width: 40px;
+	height: 40px;
+}
+.device_box {
+	display: block;
+	position: relative;
+	background-image: -webkit-linear-gradient(bottom, rgb(194,192,192) 9%, #E9E6E4 36%, #E9E6E4 69%);
+	background-image: -moz-linear-gradient(bottom, rgb(194,192,192) 9%, #E9E6E4 36%, #E9E6E4 69%);
+
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	box-shadow: inset 0 0 6px 4px #c0c0c0;
+}
+.check {
+	background: url(/green_checkmark.png) no-repeat 0px 0px;
+}
+.uncheck {
+	background: url(/gray_checkmark.png) no-repeat 0px 0px;
+}
