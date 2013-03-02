@@ -3,7 +3,7 @@ var express = require("express");
 
 
 function init(){
-    var port = 80;
+    var port = 8080;
 
     var app = express();
     configureExpress(app);
