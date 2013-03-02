@@ -69,3 +69,15 @@ img {
 .uncheck {
 	background: url(/gray_checkmark.png) no-repeat 0px 0px;
 }
+.prices {
+	font-family: 'Oswald' ;
+	text-transform: uppercase;
+	color: red;
+	font-size: 12px;
+}
+.name {
+	font-family: 'Oswald' ;
+	text-transform: uppercase;
+	color: grey;
+	font-size: 8px;
+}
