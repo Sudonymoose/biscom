@@ -112,3 +112,29 @@ td{
 	box-shadow: 0 0 6px 3px #c0c0c0;
 }
 
+#event {
+    display: none; /* hide it at first */
+	background-color: #F3F3F3;
+
+    /* text */
+    text-align: left;
+
+    /* positioning */
+    z-index: 256;  /* place on top of everything */
+    position: fixed;
+    top:50%;
+    left:50%;
+    width:500px;
+    height:500px;
+    margin: 0 auto;
+    margin-top: -200px;
+    margin-left: -250px;
+
+    /* border, padding */
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px;
+	border: 1px solid #c0c0c0;
+	box-shadow: 0 0 6px 3px #c0c0c0;
+}
+

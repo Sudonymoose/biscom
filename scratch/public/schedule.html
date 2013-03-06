@@ -35,23 +35,50 @@
     <div class="section sixteen columns">
         <h1 id="section-label">Schedule</h1>
     </div>
-    <div class="row">
-        <div class="three columns "><h3>Sunday</h3></div>
-        <div class="two columns "><h3>Monday</h3></div>
-        <div class="two columns "><h3>Tuesday</h3></div>
-        <div class="two columns "><h3>Wednesday</h3></div>
-        <div class="two columns "><h3>Thursday</h3></div>
-        <div class="two columns "><h3>Friday</h3></div>
-        <div class="three columns "><h3>Saturday</h3></div>
+    <div>
+		<img src="/Schedule.png" alt="Schedule">
+		<form id="addEvent"><button style="display:block; margin: auto">Add Event</button></form>
     </div>
-    <div class="row">
-        <div class="three columns box" style="height:600px"></div>
-        <div class="two columns box" style="height:600px"></div>
-        <div class="two columns box" style="height:600px"></div>
-        <div class="two columns box" style="height:600px"></div>
-        <div class="two columns box" style="height:600px"></div>
-        <div class="two columns box" style="height:600px"></div>
-        <div class="three columns box" style="height:600px"></div>
+    <div id="event">
+        <h4>Add an Event</h4>
+		<form id="eventSubmit">
+			<fieldset>
+				<legend>Event type</legend>
+				<label for="meal">
+					<input type="radio" name="radios" id="meal" value="m">
+					<span>Meal</span>
+				</label>
+				<label for="workout">
+					<input type="radio" name="radios" id="workout" value="w">
+					<span>Workout</span>
+				</label>
+			</fieldset>
+			<table>
+				<tr><td>
+				<label for="name">Title: </label>
+				</td><td>
+				<input type="text" id="name">
+				</td></tr>
+				<tr><td>
+				<label for="start">Start Time: </label>
+				</td><td>
+				<input type="text" id="start">
+				</td></tr>
+				<tr><td>
+				<label for="end">End Time: </label>
+				</td><td>
+				<input type="text" id="end">
+				</td></tr>
+				<tr><td>
+				<label for="calories">Estimated Calories: </label>
+				</td><td>
+				<input type="text" id="calories">
+				</td></tr>
+				<tr><td>
+				<button type="submit">Submit</button>
+				</td></tr>
+			</table>
+		</form>
     </div>
     <div id="footer" class="section sixteen columns">
         <ul>
